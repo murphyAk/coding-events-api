@@ -28,7 +28,7 @@ namespace CodingEventsAPI {
             "v1",
             new OpenApiInfo {
               Version = "v1",
-              Title = "Coding Events API",
+              Title = "Andrew's Coding Events API",
               Description = "REST API for managing Coding Events"
             }
           );
@@ -51,7 +51,7 @@ namespace CodingEventsAPI {
           options.RoutePrefix = ""; // root path of the server
           options.SwaggerEndpoint(
             "/swagger/v1/swagger.json",
-            "Patrick's Coding Events API Documentation"
+            "Andrew's Coding Events API Documentation"
           );
         }
       );
